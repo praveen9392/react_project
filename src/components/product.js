@@ -1,9 +1,9 @@
-function Product({img}){
+function Product({img,title}){
     return(
-        <div>
+        <div className="Products">
             <img src={img} alt="NotFound"/>
-            <p>
-                Iphone
+            <p >
+                {title}
             </p>
         </div>
     )

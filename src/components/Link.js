@@ -8,5 +8,6 @@ function Link(imagelink, data, link){
             </div>
         </div>
     )
-
 }
+
+export default Link;
