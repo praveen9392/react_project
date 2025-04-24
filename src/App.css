@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.layout{
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  margin: 50px;
+}
+.maintext {
+  font-size: 30px;
+  padding: 30px;
+}
+.rf-shop-chat-section{
+  display: flex;
+  flex-direction: row;
+  
+}
+.slider img{
+  height: 80px;
+  width:80px;
+  margin: 30px;
+}
+
+
