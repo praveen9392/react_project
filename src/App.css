@@ -55,15 +55,17 @@
 .slider img{
   height: 150px;
   width:150px;
-  margin: 10px;
+  gap: 10px;
   display: flex;
   flex-direction: row;
   border-radius: 10px;
 }
 .slider{
-  display: inline-flex;
+  display: flex;
   text-align: center;
+  scroll-behavior: smooth;
+  overflow-x: auto;
+  
 }
-
 
 
